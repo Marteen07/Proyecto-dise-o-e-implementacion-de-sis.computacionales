@@ -1,35 +1,37 @@
 Resultados esperados principales
+
 Operaciones del proyecto
-Entrega de un sitio web funcional, seguro y escalable dentro de los plazos acordados.
 
-Cumplimiento de estándares de accesibilidad y usabilidad para garantizar que cualquier usuario pueda navegar sin dificultades.
+Sistema funcional Entrega de una aplicación web interna funcional, segura y escalable para la gestión del transporte de carga aérea.
+Cumplimiento normativo: Garantizar el cumplimiento de normativas aeronáuticas, aduaneras y de transporte de carga vigentes en Argentina.
+Integración con sistemas: Integración confiable con sistemas internos de la empresa para la gestión de vuelos, seguimiento de carga y documentación correspondiente.
+Mantenimiento y documentación: Entrega de documentación técnica, manual de usuario para empleados y plan de mantenimiento.
 
-Integración confiable con sistemas internos de la aerolínea (reservas, gestión de vuelos, programas de fidelización).
+Capacitacion y Experiencias de los Usuarios 
+Interfaz intuitiva: Diseño claro y eficiente orientado al uso diario por parte del personal de la empresa, optimizado para minimizar errores.
+Flujo ágil: Proceso simplificado para registrar solicitudes de transporte (recibidas por llamada), asignar carga a vuelos disponibles y dar seguimiento al envío.
+Reducción de carga operativa: Automatización de tareas repetitivas que actualmente se realizan de forma manual.
+Capacitacion: Capacitar a los empleados a la hora del uso de la aplicacion web otorgandoles la documentacion necesaria como el Manual de Usuario o si es necesario capacitar a los empleados en persona.
 
-Experiencia del usuario
-Interfaz clara y atractiva que facilite la compra de pasajes y servicios adicionales.
+Gestión y seguimiento de carga
+Registro centralizado: Unificación de todas las solicitudes de transporte en una única plataforma, evitando duplicados o pérdidas de información.
+Trazabilidad: Seguimiento en tiempo real del estado de cada envío (solicitado, asignado a vuelo, en tránsito, entregado).
+Gestión de disponibilidad: Control de capacidad de carga por vuelo para optimizar el uso de la aeronave.
+Generación de documentación: Automatización de guías de carga, manifiestos y demás documentación requerida para el transporte aéreo.
 
-Optimización para dispositivos móviles y distintos navegadores.
-
-Flujo de navegación intuitivo que reduzca tiempos de búsqueda y aumente la conversión de visitantes en clientes.
-
-Resultados comerciales
-Incremento en la tasa de reservas online y reducción de costos asociados a canales tradicionales.
-
-Mejora en la visibilidad digital de la aerolínea a nivel nacional y preparación para su futura expansión internacional.
-
-Posicionamiento competitivo frente a aerolíneas locales y regionales mediante una plataforma moderna y diferenciada.
+Resultados comerciales y operativos
+Optimización de tiempos: Reducción en los tiempos de respuesta y asignación de envíos gracias a la centralización de la información.
+Mayor alcance: Ampliación efectiva del alcance de productos tecnológicos a nivel nacional mediante una mejor gestión de rutas y vuelos.
+Reducción de costos operativos: Disminución de errores manuales, papel y tiempo perdido en la coordinación de envíos.
+Mejor aprovechamiento de vuelos: Maximización de la capacidad de carga disponible, optimizando la rentabilidad de cada vuelo.
 
 Innovación y escalabilidad
-Arquitectura preparada para soportar un aumento de tráfico y nuevas funcionalidades (rutas internacionales, carga aérea, programas corporativos).
+Arquitectura escalable: Preparada para incorporar nuevas rutas, mayor volumen de envíos o expansión a nuevos tipos de carga.
+Módulos futuros: Posibilidad de agregar funcionalidades como alertas automáticas, reportes estadísticos, integración con aduanas o gestión de incidencias.
+Tecnología mantenible: Implementación con tecnologías que permitan actualizaciones ágiles y un mantenimiento eficiente a largo plazo.
 
-Posibilidad de incorporar módulos adicionales como seguimiento de equipaje, check-in digital y gestión de reclamos.
-
-Uso de tecnologías que permitan actualizaciones ágiles y mantenimiento eficiente.
-
-Relación con el cliente
-Mayor satisfacción de los pasajeros gracias a procesos simplificados y comunicación clara.
-
-Reducción de reclamos por fallas en el sistema de reservas.
-
-Generación de confianza en la marca a través de un sitio seguro y profesional.
+Control y seguridad
+Acceso restringido: Sistema con autenticación y autorización exclusiva para empleados de Aerolíneas Malvinas, con distintos niveles de permisos según el rol.
+Seguridad de la información: Protección de datos sensibles de clientes, envíos y operaciones mediante buenas prácticas de seguridad.
+Auditoría: Registro de acciones realizadas por los usuarios para garantizar trazabilidad y responsabilidad.
+Reducción de reclamos: Minimización de errores operativos mediante validaciones y flujos controlados, generando mayor confianza en el servicio.
