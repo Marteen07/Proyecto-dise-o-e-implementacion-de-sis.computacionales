@@ -1,0 +1,12 @@
+Credenciales para inicio de sesión:
+USUARIO ADMIN:
+usuario: 1234
+contraseña: proyecto
+
+USUARIO SUPERIOR/SUPERVISOR:
+usuario: 4090
+contraseña: proyectosup
+
+USUARIO EMPLEADO:
+usuario: 4795
+contraseña: proyectoemp

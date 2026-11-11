@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo contrato-Aerolíneas Malvinas</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body class="cuerpo">
+    <header class="header">
+        <div class="header-izq">
+            <h1 class="titulo">Aerolíneas Malvinas</h1>
+        </div>
+        <div class="header-cen">
+            <h2>Los mejores envíos del país</h2>
+        </div>
+        <div class="header-der">
+            <a href="Contratos.html" class="boton">Volver</a>
+        </div>        
+    </header>
+<br>
+<br>
+<main>
+    <div class="container">
+        <h2>Nuevo contrato</h2>
+        <form>
+  <div>
+    <label for="nombre_e">Nombre de empresa</label>
+    <input type="text" id="nombre_e" name="nombre_e" required>
+  </div>
+<br> 
+  <label for="fecha_vigencia">Fecha de vigencia desde:</label>
+    <input type="date" id="fecha_vigencia" name="fecha_vigencia" required>
+    <br>
+    <br>
+    <div class="drop-zone" id="drop-zone">
+        <div class="drop-zone-icon">📄</div>
+        <p class="drop-zone-text">Clickea y subí el contrato acá</p>
+        <input type="file" id="file-input" name="informe_pdf" accept=".pdf,.doc,.docx" hidden required>
+        <div id="file-name" class="file-name"></div> 
+    </div>
+    <br>
+     <button type="submit">Cargar contrato</button>
+    
+<style>
+    .drop-zone {
+    border: 2px dashed #0056b3;
+    border-radius: 12px;
+    padding: 35px 20px;
+    text-align: center;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+
+  .drop-zone-icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .drop-zone-text {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin: 0 0 5px 0;
+  }
+
+  .file-name {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #28a745;
+    font-size: 14px;
+  }
+</style>
+
+<script>
+  const dropZone = document.getElementById('drop-zone');
+  const fileInput = document.getElementById('file-input');
+  const fileNameDisplay = document.getElementById('file-name');
+
+  // Abrir selector al hacer clic
+  dropZone.addEventListener('click', () => fileInput.click());
+
+  ['dragleave', 'drop'].forEach(eventName => {
+    dropZone.addEventListener(eventName, (e) => {
+      e.preventDefault();
+      dropZone.classList.remove('dragover');
+    });
+  });
+  // Manejar el soltado de archivo (drop)
+  dropZone.addEventListener('drop', (e) => {
+    const files = e.dataTransfer.files;
+    if (files.length) {
+      fileInput.files = files; // Asigna el archivo al input oculto
+      mostrarNombreArchivo(files[0].name);
+    }
+  });
+  // Manejar la selección por clic
+  fileInput.addEventListener('change', () => {
+    if (fileInput.files.length) {
+      mostrarNombreArchivo(fileInput.files[0].name);
+    }
+  });
+  function mostrarNombreArchivo(nombre) {
+    fileNameDisplay.textContent = `📌 Archivo listo: ${nombre}`;
+  }
+</script>
+</form>
+    </div>
+<br>
+<br>
+</main>
+    <footer class="footer">
+    <div class="footer-left">
+        <h3>Aerolíneas<br>Malvinas</h3>
+    </div>
+    <div class="footer-center">
+        <h3>CONTACTOS</h3>
+        <p>📞 +54 9 11 1234-5678</p>
+        <p>🕒 Lunes a Sábados 10hs-22hs</p>
+        <p>✉️ AeroMalvinas@gmail.com</p>
+    </div>
+    <div class="footer-right">
+        <img src="Aerolíneas Malvinas.jpg" class="footer-logo">
+    </div>
+</footer>
+</body>
+</html>

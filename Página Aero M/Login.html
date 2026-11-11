@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Aerolineas Malvinas - Login</title>
+   <link rel="stylesheet" href="Styles.css">
+</head>
+<body class="cuerpo">
+    <header class="header">
+        <div class="header-izq">
+            <h1 class="titulo">Aerolíneas Malvinas</h1>
+        </div>
+        <div class="header-cen">
+            <h2>Los mejores envíos del país</h2>
+        </div>
+        <div class="header-der">
+            <h2>Inicio de sesión</a>
+        </div>        
+    </header>
+    <main>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <form action="login.php" method="POST" class="form">
+            <label for="u_id">ID Trabajador:</label>
+            <input type="number" id="u_id" name="user_id" required>
+            <br>
+            <br>
+            <label for="u_pass">Contraseña:</label>
+            <input type="password" id="u_pass" name="user_pass" required>
+            <br>
+            <br>
+            <button type="submit" class="boton">Iniciar sesión</button>
+        </form>
+    </div>
+    </main>
+</body>
+</html>

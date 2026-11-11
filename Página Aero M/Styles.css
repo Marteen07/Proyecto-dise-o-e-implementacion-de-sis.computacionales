@@ -1,0 +1,135 @@
+.header{
+    background-color: #0b1c3d;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.header-izq {
+    padding:20px;
+    text-align: left;
+}
+
+.header-cen {
+    text-align: center; 
+}
+
+.header-der {
+    justify-self: end;
+}
+
+.titulo{
+    color: white;
+}
+
+.cuerpo{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* 100% del alto de la ventana visual */
+}
+
+main {
+    flex: 1; 
+}
+
+.container{
+    background-color: #C7C7C7;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 25px;
+    display: grid;
+    text-align: center;
+    align-items: center;
+}
+.form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.panel-container {
+  display: flex;
+  flex-wrap: wrap;       /* Permite que los botones bajen a la siguiente fila */
+  justify-content: center;
+  gap: 20px;            /* Espaciado de separación entre filas y columnas */
+  max-width: 600px;     /* Ajusta este ancho según el tamaño de tu pantalla */
+  margin: 0 auto;       /* Centra todo el bloque en la pantalla */
+}
+.boton{
+    background-color: #0b1c3d;
+    color: white;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100px;
+    width: 200px;
+    border-radius: 8px;
+    text-decoration: none;
+    outline: 2px;
+}
+
+.boton2{
+    background-color: red;
+    display: flex;
+    color: white;
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.boton3{
+    background-color: grey;
+    display: flex;
+    color: white;
+    font-size: small;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+.footer {
+    background-color: #0b1c3d; 
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* Tres columnas (la del centro un poco más ancha para los datos) */
+    align-items: center;
+    padding: 30px 40px;
+    font-family: sans-serif;
+}
+
+.footer-left h3 {
+    margin: 0;
+    font-size: 1.3rem;
+    line-height: 1.2;
+}
+
+.footer-center {
+    justify-self: center;
+    text-align: center;
+}
+
+.footer-center h4 {
+    margin: 0 0 10px 0;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+.footer-center p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.footer-right {
+    justify-self: end; /* Manda la imagen contra el borde derecho */
+}
+
+.footer-logo {
+    max-height: 60px; /* Ajustá este valor según el tamaño que prefieras para la imagen */
+    width: auto;
+}
+
