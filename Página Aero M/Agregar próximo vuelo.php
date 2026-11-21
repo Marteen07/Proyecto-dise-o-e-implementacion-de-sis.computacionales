@@ -49,7 +49,7 @@ if (!isset($_SESSION['usuario'])) {
     />
     </div>
     <br>
-     <button type="submit">Crear usuario</button>
+     <button type="submit">Agregar vuelo</button>
 </form>
     </div>
 <br>
