@@ -1,0 +1,31 @@
+Credenciales para inicio de sesión:
+USUARIO ADMIN:
+usuario: 1234
+contraseña: proyecto
+
+USUARIO SUPERIOR/SUPERVISOR:
+usuario: 4090
+contraseña: proyectosup
+
+USUARIO EMPLEADO:
+usuario: 4795
+contraseña: proyectoemp
+
+Como instalar el sistema:
+
+Requisitos: 
+-Xampp
+
+Instrucciones de instalación:
+1- Instalar xampp (no deseleccionar MySql ni apache al momento de instalarlo)
+2- Recordar la carpeta donde se instala xampp y buscar posteriormente la carpeta "htdocs" dentro de la carpeta "xampp".
+3- En la carpeta "htdocs" colocar la carpeta "Página Aero M" del repositorio.
+4- Iniciar la aplicación "Xampp Control Panel" y apretar los 2 botones "Start" para MySQL y Apache. Si ambos nombres se ponen en verde significa que iniciaron correctamente.
+5- En la fila de MySql apretar el botón "Admin", esto abrirá una página en tu navegador donde se manejan las bd.
+6- En el panel izquierdo apretar donde dice "nueva" para crear una base de datos. El nombre de esta debe obligatoriamente coincidir con la creada en el archivo.sql "aerolineas_m_db".
+7- Una vez creada localmente la base de datos se debe buscar en el panel superior la funcion de "Importar", se adjunta el archivo "aerolineas_m_db.sql" y se realiza la importación de las tablas.
+8- Finalmente, teniendo la base de datos importada, MySql y Apache en ejecución, abrimos el navegador y escribimos:"http://localhost/Página Aero M/". Esto mostrará el contenido de la carpeta 
+en el navegador y allí procedemos a clickear "Login.html".
+9- Se recomienda guardar la pestaña como favorita para acceso más fácil, una vez que se quiera cerrar todo, volmemos al "Xampp Control Panel" y apretamos el botón "Stop" para MySql y Apache.
+
+-Martín Herrera 21/11/2026.
